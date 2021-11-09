@@ -1,0 +1,13 @@
+---
+mysql_info:
+  user: devops
+  privilege: "*.*:ALL,GRANT"
+  database: userdb
+  password: redhat
+  backupfile: userdb.backup
+mysql_packages:
+  - mysql
+  - mysql-server
+  - python3-PyMySQL
+mysql_services:
+  - mysqld
